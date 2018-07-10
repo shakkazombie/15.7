@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 15;
+    padding: 15;
+    font-display: center;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: green;
+}
+
+nav {
+    width: 100%;
+    display: inline-block;
+    align-content: center;
+    text-align: center;
+    margin-top: 15px;
+}
+
+a {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: black;
+    padding: 4px;
+}
+
+a:active,
+a:focus,
+a:visited {
+    color: white;
+}
+
+a:hover {
+    border: 1px solid rgba(225, 225, 225, 0.2);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.stopwatch {
+    font-size: 5rem;
+}
