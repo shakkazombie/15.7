@@ -1,47 +1,41 @@
-* {
-    box-sizing: border-box;
-    margin: 15;
-    padding: 15;
-    font-display: center;
-}
-
 body {
-    width: 100%;
-    min-height: 100vh;
-    background: green;
+	background: green;
 }
 
-nav {
-    width: 100%;
-    display: inline-block;
-    align-content: center;
-    text-align: center;
-    margin-top: 15px;
+.controls {
+	margin: 100px;
+	display: flex;
+	justify-content: center;
 }
 
-a {
-    font-size: 20px;
-    text-align: center;
-    color: white;
-    text-decoration: none;
-    border: 1px solid black;
-    border-radius: 5px;
-    background-color: black;
-    padding: 4px;
+button {
+	background-color: darkgreen;
+	padding: 15px;
+	margin: 20px 10px;
+	color: darkorange;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 20px;
+	border-radius:20px;
 }
 
-a:active,
-a:focus,
-a:visited {
-    color: white;
-}
-
-a:hover {
-    border: 1px solid rgba(225, 225, 225, 0.2);
-    border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.2);
+button:hover {
+	background-color: olivedrab;
 }
 
 .stopwatch {
-    font-size: 5rem;
+	margin: 30px auto;
+	padding: 20px;	
+	background-color: grey;
+	color: darkorange;
+	font-size: 30px;
+	border-radius:10px;
+    text-align: center;
+    width: 120px;
+}
+.results {	
+	color: darkblue;
+	font-size: 30px;
+    text-align: center;
+    padding: 0;
 }
